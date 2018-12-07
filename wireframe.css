@@ -1,0 +1,82 @@
+body {
+    background-color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+header {
+    padding: 40px;
+    margin: 10px 200px 10px 200px;
+    background-color: white;
+    text-align: center;
+    color:gray;
+}
+nav {
+    padding: 40px;
+    margin: 10px 200px 10px 200px;
+    background-color: white;
+    text-align: center;
+    color:gray;
+}
+ section {
+    position: relative;
+    float: left;
+    padding-top: 40px;
+    /* margin: 20px 10px 20px 20px; */
+    height: 220px;   
+    width: 35%;
+    margin: 10px 5px 20px 200px;
+    background-color: white;
+    position: relative;
+    text-align: center;
+     color:gray;
+ }
+ aside {
+    display: block;
+    float: right;
+    padding-top: 40px;
+    margin: 10px 200px 5px 0px;
+    width: 28%;
+    height: 220px;
+    background-color: white;
+    text-align: center;
+    color:gray;
+}
+.article {
+    /* position: absolute; */
+    position: relative;
+    background-color: gray;
+    width: 95%;
+    height: 140px;
+    color: white;
+    margin: 20px 10px 20px 10px;
+    padding-top: 20px;
+}
+
+.article-box1 {
+    position: relative;
+    background-color: white;
+    color: gray;
+    width: 95%;
+    margin: 10px 10px 5px 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+.article-box2 {
+    position: absolute;
+    background-color: white;
+    color: gray;
+    width: 95%;
+    margin: 5px 10px 10px 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+footer {
+    clear: both;
+    padding: 40px;
+    margin: 20px 200px 10px 200px;
+    background-color: white;
+    text-align: center;
+    color:gray;
+}
